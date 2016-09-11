@@ -23,6 +23,10 @@ cd melije
  
  
 killall tmux
+
+
 killall telegram-cli
+
+
 tmux new-session -s script "bash steady.sh -t"
   
